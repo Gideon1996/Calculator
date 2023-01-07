@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(grey, white);
+}
+
+.realHead{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+}
+
+header h1{
+    width: 25%;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    background-image: linear-gradient(to right, rgb(129, 125, 125),rgb(66, 58, 58));  
+    padding: 1em;
+    /* border: 0.1em black solid; */
+    max-width: 450px;
+}
+
+nav{
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 2.5%;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:visited, :link{
+color: rgb(59, 25, 25);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    box-shadow: 5.5em 0.5em 5.5em 0.5em;
+    background-image: linear-gradient(to right, grey, white);
+    color: white;
+    padding: 1.5em;
+    margin:  0.25em;
+    list-style-type: none;
+    min-width: 19.5%;
+    text-align: center;   
+}
+
+/* Table styling starts */
+
+.schedule{
+    border: 0.1em solid black;
+    width: 95%;
+    border-collapse: collapse;
+    margin-left: 2.5%;
+}
+
+.schedule caption{
+    border: 0.1em solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.schedule th, td{
+    border: 0.1em solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.schedule th{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    margin-top: 20px;
+    border-bottom: 5px solid rgb(59, 25, 25);
+    border-top: 5px solid rgb(59, 25, 25);
+    padding: 1em;
+    text-align: center;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+/* Formatting of the calculator below */
+table{
+    border: 0.1em solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: black;
+}
+
+table caption{
+    border: 0.5em solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: black;
+}
+
+/* th, td{
+    border: 0.1em solid black;
+    padding: 0.5em;
+} */
+
+table caption input{
+    text-align: right;
+}
+ input{
+    width: 95%;
+    height: 3em;
+    font-size: 2em;
+ }
+
+
+
+ /* Media Queries */
+ @media (max-width: 1025px) {
+    .realHead{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+}
+
+nav ul{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+header h1{
+    width: 95%;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    background-image: linear-gradient(to right, rgb(129, 125, 125),rgb(66, 58, 58));  
+    padding: 1em;
+    max-width: 450px;
+ }
+}

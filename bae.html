@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Love You Fay</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right,grey, white);
+}
+
+a:link, :visited{
+    text-decoration: none;
+    /* box-shadow: 5.5em 0.5em 5.5em 0.5em; */
+    /* background-image: linear-gradient(to right, grey, white); */
+    color: white;
+    /* padding-left: 2.5em;
+    padding-top: 10em; */
+    /* min-width: 19.5%; */
+    /* text-align: center; */
+    margin: 10em;
+    
+}
+
+.first, .second, .third{
+    margin-top: 80px;
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+p{
+    margin-top: 40px;
+}
+
+@keyframes slidein{
+    0%{
+        margin-left: 100%;
+        width: 300px;
+        text-align: center;
+    }
+
+    50%{
+        font-size: 150%;
+        font-weight: 500;
+        width: 290px;
+        text-align: center;
+    }
+
+    100%{
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    body{
+        width: 80%;
+        height: 80%;
+    }
+    section{
+       margin: 60px auto auto 60px;
+
+    }
+    
+
+}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Home</a>
+    <section>
+      <h3 class="first">I Love You</h3>
+      <h4 class="second">So Very Much</h4>
+      <h3 class="third">
+        Favour Afoma Ogu <br>.<br>.<br>.<br>Forever Till The End
+        <p>💕💋&#128525😘🥰 &#128141 ❤️‍🔥</p>
+      </h3>
+    </section>
+  </body>
+</html>
